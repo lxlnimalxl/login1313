@@ -1,0 +1,35 @@
+body {
+    font-family: SansSerif;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: #282828;
+}
+.header {
+    text-align: right;
+
+}
+.profile {
+    margin: 3px 15px 0px 2px;
+    width: 45px;
+    height: 45px;
+}
+.menu {
+    margin: 0px 10px 5px 10px;
+    height: 20px;
+    width: 25px;
+}
+.top_link {
+    position: relative;
+    left: -5px;
+    top: -12px;
+    padding-left: 12px;
+}
+.search {
+    text-align: center;
+    padding-top: 85px;
+}
+.footer {
+    text-align: left;
+}

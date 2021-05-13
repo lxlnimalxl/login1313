@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #f6f6f6;
+    justify-content: center;
+    align-items: center;
+}
+.neumorphis-toggles {
+    position: relative;
+    width: 280px;
+    padding: 30px;
+    background-color: #e3e6ec;
+    box-shadow: 10px 10px 15px rgba(209,217,230,1), -10px -10px rgba(255,255,255,1);
+    border-radius: 20px;
+    font-size: 0;
+}
+.neumorphis-toggles >
+input[type=checkbox].neumorphish {
+    position: relative;
+    -webkit-appearance: none;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #e3e6ec;
+    box-shadow: 10px 10px 15px rgba(209,217,230,1), -10px -10px 15px rgba(255, 255, 255, 1), inset 0 0 15px rgba(209,217,230,1), inset 0 0 15px rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.neumorphis-toggles >
+input[type=checkbox].neumorphish:checked {
+    box-shadow: 0 0 15px rgba(209,217,230,1), 0 0 15px rgba(255, 255, 255, 1), inset 10px 10px 15px rgba(209, 217, 230, 1), inset -10px -10px 15px rgba(255,255,255,1);
+}
+.neumorphis-toggles >
+input[type=checkbox].neumorphish::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish:checked::before {
+    color: #12e2a1;
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish.fa-home::before {
+    content: "\f015";
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish.fa-bell::before {
+    content: "\f03";
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish.fa-lightbulb::before {
+    content: "\f0eb";
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish.fa-thermometer-half::before {
+    content: "\f2c9";
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish.fa-laptop::before {
+    content: "\f109";
+}
+.neumorphis-toggles > input[type=checkbox].neumorphish.fa-blender::before {
+    content: "\f517";
+}

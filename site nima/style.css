@@ -1,0 +1,36 @@
+body {
+    background-color: #0e131f;
+}
+.nima_onvan {
+    font-family: Gabriola;
+    font-size: 60px;
+    color: #ff0000;
+    text-align: center;
+}
+.own {
+    font-family: Gabriola;
+    font-size: 30px;
+    text-align: center;
+    color: #9933ff;
+}
+.nima_game {
+    font-family: Gabriola;
+    font-size: 10px;
+    color: #d9b3ff;
+    text-align: center;
+}
+.img {
+    text-align: center;
+}
+.capsion {
+    font-family: Gabriola;
+    font-size: 35px;
+    text-align: center;
+    color: #e6005c;
+}
+.bottom {
+    text-align: center;
+}
+h5 {
+    color: violet;
+}
