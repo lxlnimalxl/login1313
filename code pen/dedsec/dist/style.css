@@ -1,0 +1,25 @@
+body{
+	font-family: arial, sans-serif;
+	text-align: center;
+	background-image: url(http://orig01.deviantart.net/ed96/f/2016/166/3/b/dedsec_skull_noise_2_by_junguler-da6cg74.gif);
+	background-size: cover;
+	color: black;
+}
+
+#nav_wrapper ul li {
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+  margin-right: 20px;
+
+
+}
+#nav_wrapper a{
+	color: white;
+	text-decoration: none;
+
+}
+li:hover{
+  text-decoration: underline;
+}
